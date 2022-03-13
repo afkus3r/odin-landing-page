@@ -22,8 +22,8 @@ header {
 header ul {
     display: flex;
     list-style-type: none;
-    padding: 0px;
     margin: 0px 0px 0px auto;
+    padding: 0px;
     align-items: center;
     gap: 18px;
 }
@@ -43,11 +43,13 @@ a {
 }
 
 .first-box img {
-    max-width: 550px;
+    width: 550px;
+    height: auto;
 }
 
 .hero-text {
-    max-width: 480px;
+    width: 480px;
+    height: auto;
 }
 
 h1 {
@@ -69,4 +71,37 @@ h1 {
     border-radius: 10px;
     border: 0px;
     padding: 8px 35px;
+}
+
+.second-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900px;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.small-boxes {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.small-box {
+    box-sizing: border-box;
+    text-align: center;
+    width: 200px;
+    font-size: 18px;
+    color: grey;
+}
+
+.small-box img {
+    width: auto;
+    height: 150px;
 }
