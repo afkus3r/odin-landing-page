@@ -122,3 +122,36 @@ h2 {
     font-style: normal;
     text-align: right;
 }
+
+.fourth-box {
+    padding: 70px 150px;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 40px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin: 0px;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.sign-up p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0px;
+}
+
+.sign-up button {
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 2px solid #e5e7eb;
+    padding: 8px 35px;
+}
