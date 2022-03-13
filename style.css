@@ -6,6 +6,8 @@ body {
     margin: 0px;
 }
 
+/* HEADER */
+
 header {
     background-color: #1F2937;
     display: flex;
@@ -34,6 +36,8 @@ a {
     font-size: 18px;
     color: #e5e7eb;
 }
+
+/* HERO SECTION */
 
 .first-box {
     background-color: #1F2937;
@@ -74,6 +78,8 @@ button {
     padding: 8px 35px;
 }
 
+/* SECOND SECTION*/
+
 .second-box {
     display: flex;
     flex-direction: column;
@@ -105,6 +111,8 @@ h2 {
     height: 150px;
 }
 
+/* THIRD SECTION */
+
 .third-box {
     background-color: #e5e7eb;
     color: #1F2937;
@@ -121,6 +129,8 @@ h2 {
     font-style: normal;
     text-align: right;
 }
+
+/* FOURTH BOX */
 
 .fourth-box {
     padding: 70px 200px;
@@ -149,6 +159,8 @@ h3 {
 .sign-up button {
     border: 2px solid #e5e7eb;
 }
+
+/* FOOTER */
 
 footer {
     background-color: #1F2937;
