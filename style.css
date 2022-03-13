@@ -64,7 +64,7 @@ h1 {
     color: #e5e7eb;
 }
 
-.first-box button {
+button {
     font-size: 18px;
     color: #e5e7eb;
     background-color: #3882f6;
@@ -148,10 +148,5 @@ h3 {
 }
 
 .sign-up button {
-    font-size: 18px;
-    color: #e5e7eb;
-    background-color: #3882f6;
-    border-radius: 10px;
     border: 2px solid #e5e7eb;
-    padding: 8px 35px;
 }
